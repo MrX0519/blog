@@ -1,5 +1,7 @@
 > FLUSHALL和FLUSHDB是单机命令，所以清空集群需要在所有Master节点上均执行一次。
  - 下载：[https://github.com/eyjian/redis-tools/blob/master/clear_redis_cluster.sh](https://github.com/eyjian/redis-tools/blob/master/clear_redis_cluster.sh)
+
+
 ```
 #!/bin/bash
 # Batch to clear all nodes using FLUSHALL command
